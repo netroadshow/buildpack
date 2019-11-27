@@ -38,5 +38,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     mkdir -p /work
 
 WORKDIR /work
-ENTRYPOINT [ "/bin/bash" ]
-CMD []
+ENTRYPOINT []
+CMD ["/bin/bash"]
